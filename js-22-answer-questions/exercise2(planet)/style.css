@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#destination {
+    background-color: rgb(180, 163, 163);
+    padding: 50px;
+    display: inline-block;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+#parentP {
+    background-color: rgb(65, 62, 62);
+    padding: 50px 50px;
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.namePlanet {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: rgb(13, 255, 211);
+}
+
+.distancePlanet {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: rgb(13, 255, 211);
+
+}

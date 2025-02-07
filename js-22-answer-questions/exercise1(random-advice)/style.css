@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(39, 44, 54);
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(39, 44, 54);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#box {
+    width: 400px;
+    height: 280px;
+    background-color: rgb(63, 68, 78);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+
+}
+
+.nemidoonam1 {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(42, 168, 199);
+    /* margin-top: 35px; */
+
+}
+
+.nemidoonam2 {
+    width: 250px;
+    height: 2px;
+    background-color: rgb(42, 168, 199);
+}
+
+.nemidoonam3 {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(42, 168, 199);
+}
+
+.container_khat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: relative;
+    bottom: 67px;
+}
+
+.advice_id {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    padding-inline: 0;
+    margin-bottom: 0;
+    color: aqua;
+}
+
+.advice {
+    text-align: center;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.con_id {
+    margin-top: 30px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.con_button {
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 98px;
+}
+
+
+.button svg {
+    transition: transform 0.4s ease;
+    width: 60px;
+    height: 60px;
+}
+
+.button:hover svg {
+    transform: rotate(45deg);
+}
+
+.con_text {
+    padding: 0 20px;
+}
